@@ -7,22 +7,62 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
     <style type="text/css">
+        @media screen and (min-width: 599.98px){ 
+            
+            .main-table {
+                max-width: 600px !important;
+                background-color: blue !important;
+            }
+
+            
+            
+        } 
+
+        @media screen and (max-width: 599.98px){
+            .main-table {
+                width: 100% !important;
+                margin: 0 !important;
+            }
+        }
+
+        @media screen and (max-width: 500px) {
+            .nav-item {
+                width: 50% !important;
+                padding: 0 !important;
+                margin: 0 !important;
+            }
+
+            .align-c {
+                text-align: center !important;
+                background-color: #000000 !important;
+                border: 5px solid #ffffff !important;
+            }
+
+            .nav-link {
+                color: #fff !important;
+                letter-spacing: 1px !important;
+            }
+
+            .x-item {
+                width: 50% !important;
+            }
+        }
         
     </style>
 </head>
 <body class="em_body" style="margin:0px auto; padding:0px; overscroll-behavior: none;" bgcolor="#D6D6FF">
 
     <!-- ### MAIN TABLE ### --> 
-    <table width="100%" border="0" cellspacing="0" cellpadding="0"  bgcolor="#FFFFFF"> 
+    <table width="100%" border="0" cellspacing="0" cellpadding="0"  bgcolor="#FFFFFF" > 
         <tr> 
             <td align="center" valign="top"> 
 
                 <!-- ### CONTENT TABLE ### -->
-                <table align="center" width="600" border="0" cellspacing="0" cellpadding="0" style="margin: 5px 0; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); border-radius: 3px;padding: 0; font-family: Arial, Helvetica, sans-serif;">
+                <table align="center" width="600" border="0" cellspacing="0" cellpadding="0" style="margin: 5px 0; box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); border-radius: 3px;padding: 0; font-family: Arial, Helvetica, sans-serif;" class="main-table">
 
                     <!-- ### PREHEADER TEXT ### -->
                     <div style="font-size: 0px; color: #fafdfe; line-height: 1px; mso-line-height-rule: exactly; display: none; max-width: 0px; max-height: 0px; opacity: 0; overflow: hidden; mso-hide: all;">
-                        Your Purchase Reciept
+                        Your Redline Order
                     </div>
 
                     <!-- ### (1) HEADER ### --> 
@@ -60,65 +100,65 @@
                     <tr> 
                         <td align="center" valign="top"> 
                             <!-- ### (2) TABLE ### --> 
-                            <table cellpadding="0" cellspacing="0" width="100%" style="width: 100%; background-color: #ffffff;;"> 
+                            <table cellpadding="0" cellspacing="0" width="100%" style="width: 100%;"> 
                                 <!-- NAVIGATION -->
                                 <tr>
                                     <td>
-                                        <table cellpadding="0" cellspacing="0" width="100%" style="width: 27.3%; padding: 0 0 0 10px; font-size: 14px;" align="left">
+                                        <table cellpadding="0" cellspacing="0" width="100%" style="width: 27.3%; padding: 0 0 0 10px; font-size: 14px;" align="left" class="nav-item">
                                             <tr>
-                                                <td>
-                                                    <a href="#" style="text-decoration: none; color: #777777;">
-                                                        <p style="width: fit-content; padding: 10px 0; margin: 0;">New & Featured</p>
+                                                <td class="align-c">
+                                                    <a href="#" style="text-decoration: none; color: #777777;" class="nav-link">
+                                                        <p style="padding: 10px 0; margin: 0;">New & Featured</p>
                                                     </a>
                                                 </td>
                                             </tr>
                                         </table>
 
-                                        <table cellpadding="0" cellspacing="0" width="100%" style="width: 15%; padding: 0; font-size: 14px;" align="left">
+                                        <table cellpadding="0" cellspacing="0" width="100%" style="width: 15%; padding: 0; font-size: 14px;" align="left" class="nav-item">
                                             <tr>
-                                                <td>
-                                                    <a href="#" style="text-decoration: none; color: #777777;">
-                                                        <p style="width: fit-content; padding: 10px 0; margin: 0;">Men</p>
+                                                <td class="align-c">
+                                                    <a href="#" style="text-decoration: none; color: #777777;" class="nav-link">
+                                                        <p style="padding: 10px 0; margin: 0;">Men</p>
                                                     </a>
                                                 </td>
                                             </tr>
                                         </table>
 
-                                        <table cellpadding="0" cellspacing="0" width="100%" style="width: 18.4%; padding: 0; font-size: 14px;" align="left">
+                                        <table cellpadding="0" cellspacing="0" width="100%" style="width: 18.4%; padding: 0; font-size: 14px;" align="left" class="nav-item">
                                             <tr>
-                                                <td>
-                                                    <a href="#" style="text-decoration: none; color: #777777;">
-                                                        <p style="width: fit-content; padding: 10px 0; margin: 0;">Women</p>
+                                                <td class="align-c">
+                                                    <a href="#" style="text-decoration: none; color: #777777;" class="nav-link">
+                                                        <p style="padding: 10px 0; margin: 0;">Women</p>
                                                     </a>
                                                 </td>
                                             </tr>
                                         </table>
 
-                                        <table cellpadding="0" cellspacing="0" width="100%" style="width: 15%; padding: 0; font-size: 14px;" align="left">
+                                        <table cellpadding="0" cellspacing="0" width="100%" style="width: 15%; padding: 0; font-size: 14px;" align="left" class="nav-item">
                                             <tr>
-                                                <td>
-                                                    <a href="#" style="text-decoration: none; color: #777777;">
-                                                        <p style="width: fit-content; padding: 10px 0; margin: 0;">Kids</p>
+                                                <td class="align-c">
+                                                    <a href="#" style="text-decoration: none; color: #777777;" class="nav-link">
+                                                        <p style="padding: 10px 0; margin: 0;">Kids</p>
                                                     </a>
                                                 </td>
                                             </tr>
                                         </table>
 
-                                        <table cellpadding="0" cellspacing="0" width="100%" style="width: 16.3%; padding: 0; font-size: 14px;" align="left">
+                                        <table cellpadding="0" cellspacing="0" width="100%" style="width: 16.3%; padding: 0; font-size: 14px;" align="left" class="nav-item">
                                             <tr>
-                                                <td>
-                                                    <a href="#" style="text-decoration: none; color: #777777;">
-                                                        <p style="width: fit-content; padding: 10px 0; margin: 0;">Sales</p>
+                                                <td class="align-c">
+                                                    <a href="#" style="text-decoration: none; color: #777777;" class="nav-link">
+                                                        <p style="padding: 10px 0; margin: 0;">Sales</p>
                                                     </a>
                                                 </td>
                                             </tr>
                                         </table>
 
-                                        <table cellpadding="0" cellspacing="0" width="100%" style="width: 4.8%; padding: 0 10px 0 0; font-size: 14px;" align="left">
+                                        <table cellpadding="0" cellspacing="0" width="100%" style="width: 4.8%; padding: 0 10px 0 0; font-size: 14px;" align="left" class="nav-item">
                                             <tr>
-                                                <td>
-                                                    <a href="#" style="text-decoration: none; color: #777777;">
-                                                        <p style="width: fit-content; padding: 10px 0; margin: 0;">Gifts</p>
+                                                <td class="align-c">
+                                                    <a href="#" style="text-decoration: none; color: #777777;" class="nav-link">
+                                                        <p style="padding: 10px 0; margin: 0;">Gifts</p>
                                                     </a>
                                                 </td>
                                             </tr>
@@ -149,7 +189,7 @@
                     <tr> 
                         <td align="center" valign="top"> 
                             <!-- ### (3)TABLE ### --> 
-                            <table cellpadding="0" cellspacing="0" width="100%" style="width: 100%; background-color: #fff; padding: 0;" align="center"> 
+                            <table cellpadding="0" cellspacing="0" width="100%" style="width: 100%; padding: 0;" align="center"> 
                                 <!-- LOGO -->
                                 <tr>
                                     <td align="center">
@@ -401,7 +441,7 @@
 
                     <!-- ### (6) EXTRA ITEMS ### --> 
                     <tr> 
-                        <td align="center" valign="top"> 
+                        <td align="center" valign="top" style="padding: 0 5px;"> 
                             <!-- ### (6)TABLE ### --> 
                             <table cellpadding="0" cellspacing="0" width="100%" style="width: 100%;" align="center"> 
                                 <!--  -->
@@ -412,8 +452,8 @@
                                 </tr>
 
                                 <tr>
-                                    <td align="center">
-                                        <table cellpadding="0" cellspacing="0" width="100%" style="width: 33.3333333%; padding: 5px;" align="left">
+                                    <td align="center" style="padding: 0 10">
+                                        <table cellpadding="0" cellspacing="0" width="100%" style="width: 33.3333333%; padding: 5px;" align="left" class="x-item">
                                             <tr>
                                                 <td style="border: 1px solid #cecece; border-radius: 5px; padding: 10px;">
                                                     <a href="#" style="text-decoration: none; color: #000000;">
@@ -425,7 +465,7 @@
                                             </tr>
                                         </table>
 
-                                        <table cellpadding="0" cellspacing="0" width="100%" style="width: 33.3333333%; padding: 5px;" align="left">
+                                        <table cellpadding="0" cellspacing="0" width="100%" style="width: 33.3333333%; padding: 5px;" align="left" class="x-item">
                                             <tr>
                                                 <td style="border: 1px solid #cecece; border-radius: 5px; padding: 10px;">
                                                     <a href="#" style="text-decoration: none; color: #000000;">
@@ -437,7 +477,7 @@
                                             </tr>
                                         </table>
 
-                                        <table cellpadding="0" cellspacing="0" width="100%" style="width: 33.3333333%; padding: 5px;" align="left">
+                                        <table cellpadding="0" cellspacing="0" width="100%" style="width: 33.3333333%; padding: 5px;" align="left" class="x-item">
                                             <tr>
                                                 <td style="border: 1px solid #cecece; border-radius: 5px; padding: 10px;">
                                                     <a href="#" style="text-decoration: none; color: #000000;">
@@ -449,7 +489,7 @@
                                             </tr>
                                         </table>
 
-                                        <table cellpadding="0" cellspacing="0" width="100%" style="width: 33.3333333%; padding: 5px;" align="left">
+                                        <table cellpadding="0" cellspacing="0" width="100%" style="width: 33.3333333%; padding: 5px;" align="left" class="x-item">
                                             <tr>
                                                 <td style="border: 1px solid #cecece; border-radius: 5px; padding: 10px;">
                                                     <a href="#" style="text-decoration: none; color: #000000;">
@@ -461,7 +501,7 @@
                                             </tr>
                                         </table>
 
-                                        <table cellpadding="0" cellspacing="0" width="100%" style="width: 33.3333333%; padding: 5px;" align="left">
+                                        <table cellpadding="0" cellspacing="0" width="100%" style="width: 33.3333333%; padding: 5px;" align="left" class="x-item">
                                             <tr>
                                                 <td style="border: 1px solid #cecece; border-radius: 5px; padding: 10px;">
                                                     <a href="#" style="text-decoration: none; color: #000000;">
@@ -473,7 +513,7 @@
                                             </tr>
                                         </table>
 
-                                        <table cellpadding="0" cellspacing="0" width="100%" style="width: 33.3333333%; padding: 5px;" align="left">
+                                        <table cellpadding="0" cellspacing="0" width="100%" style="width: 33.3333333%; padding: 5px;" align="left" class="x-item">
                                             <tr>
                                                 <td style="border: 1px solid #cecece; border-radius: 5px; padding: 10px;">
                                                     <a href="#" style="text-decoration: none; color: #000000;">
@@ -527,7 +567,7 @@
                     <tr> 
                         <td align="center" valign="top"> 
                             <!-- ### (7)TABLE ### --> 
-                            <table cellpadding="0" cellspacing="0" width="100%" style="width: 100%; background-color: #fff; padding: 0;" align="center"> 
+                            <table cellpadding="0" cellspacing="0" width="100%" style="width: 100%; padding: 0;" align="center"> 
                                 <tr>
                                     <td align="center">
                                         <p style="font-size: 24px; font-weight: bold; margin: 0; padding: 0 0 15px 0; line-height: 1.5;">Have questions?</p>
@@ -560,7 +600,7 @@
                     <tr> 
                         <td align="center" valign="top"> 
                             <!-- ### (8)TABLE ### --> 
-                            <table cellpadding="0" cellspacing="0" width="100%" style="width: 100%; background-color: #fff; padding: 0;" align="center"> 
+                            <table cellpadding="0" cellspacing="0" width="100%" style="width: 100%; padding: 0;" align="center"> 
                                 <tr>
                                     <td align="center">
                                         <a href="#" style="text-decoration: none;">
@@ -604,7 +644,7 @@
                     <tr> 
                         <td align="center" valign="top"> 
                             <!-- ### (9)TABLE ### --> 
-                            <table cellpadding="0" cellspacing="0" width="100%" style="width: 100%; background-color: #fff; padding: 0;" align="center"> 
+                            <table cellpadding="0" cellspacing="0" width="100%" style="width: 100%; padding: 0;" align="center"> 
                                 <tr>
                                     <td align="center">
                                         <a href="#" style="text-decoration: none;">
@@ -625,7 +665,7 @@
                     <tr> 
                         <td align="center" valign="top"> 
                             <!-- ### (10)TABLE ### --> 
-                            <table cellpadding="0" cellspacing="0" width="100%" style="width: 100%; background-color: #fff; padding: 0;" align="center"> 
+                            <table cellpadding="0" cellspacing="0" width="100%" style="width: 100%; padding: 0;" align="center"> 
                                 <tr>
                                     <td align="center" style="font-size: 12px;">
                                         <p style="width: 75%; line-height: 1.5;"> This email is sent by Redline, Inc., 117 Main Street, Brooklyn, NY 11201, USA. You are receiving this email because you registered on redline-usa.com with this email address.</p>
